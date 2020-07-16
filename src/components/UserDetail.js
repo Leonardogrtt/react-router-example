@@ -1,4 +1,5 @@
 import React, { useState,useEffect } from 'react';
+import './UserDetail.css'
 
 function UserDetail({ match }) {
 
@@ -33,7 +34,7 @@ function UserDetail({ match }) {
 
   return (
     <>
-    <div style={{"width":"50vw", "display":"flex", "flex-direction":"column" }}>
+    <div className="UserDetailDiv">
       <h1>User Info:</h1>
           {user.id}<br />
           {user.name}<br />

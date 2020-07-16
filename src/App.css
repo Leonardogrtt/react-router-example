@@ -8,4 +8,5 @@
 .AppContainer {
   display: flex;
   justify-content: space-evenly;
+  min-height: 90vh;
 }
