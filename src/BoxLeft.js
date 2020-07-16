@@ -11,6 +11,10 @@ const BoxLeft = () => {
             fdsfsdfds
         </div>
 
+        <div className="BoxLeftDiv">
+            qweqweqweqw
+        </div>
+
       </div>
     );
   }

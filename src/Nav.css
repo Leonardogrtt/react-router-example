@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 6vh;
-    background: rgb(100, 100, 100);
+    background: rgba(0, 0, 0, 0.75);
     color: white;
+
+    margin: 0 auto;
 }
 
 .NavBarUl {
@@ -12,6 +13,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     list-style: none;
+}
+
+.NavLink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

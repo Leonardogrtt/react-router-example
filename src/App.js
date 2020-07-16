@@ -37,7 +37,7 @@ function App() {
 
 const Home = () => {
   return (
-    <div style={{"width":"50vw"}}>
+    <div style={{"width":"50vw", "height":"100vh"}}>
       <h1>Home Page</h1>
     </div>
   );

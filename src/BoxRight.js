@@ -11,6 +11,11 @@ const BoxRight = () => {
             fdsfsdfds
         </div>
 
+
+        <div className="BoxRightDiv">
+            quauquauq
+        </div>
+
       </div>
     );
   }
