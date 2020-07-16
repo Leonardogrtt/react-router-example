@@ -1,0 +1,52 @@
+.PostsListUl {
+    background-color: rgb(78, 64, 201);
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.PostLi {
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: rgba(190, 198, 238, 0.774);
+    width: 50%;
+    margin-top: 1.2em;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.UserPhoto {
+    width: 6vw;
+    margin: 1em;
+}
+
+.PostUserInfo {
+    background-color: rgba(66, 54, 173, 0.281);
+    padding: .3em;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.PostInfo {
+    margin: 1em;
+}
+
+.PostTitle {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.PostBody {
+    padding: 1em;
+    font-size: calc(9px + 1vmin);
+}
