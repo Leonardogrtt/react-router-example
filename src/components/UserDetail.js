@@ -15,7 +15,7 @@ function UserDetail({ match }) {
 
     const fetchUser = async () => {
         
-      const data = await fetch(`http://jsonplaceholder.typicode.com/users/${match.params.id}`);
+      const data = await fetch(`https://my-server-deploy.herokuapp.com/api/users/${match.params.id}`);
 
       const user = await data.json();
 
