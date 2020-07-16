@@ -35,15 +35,18 @@ function Posts() {
                   <img src={person} className="UserPhoto"></img>
               </div>
               <div className="PostContent">
-
-                  <div className="PostUserInfo">
-                      <div>Nome</div>
-                      <div>Empresa</div>
-                  </div>
-                  <div className="PostInfo">
-                      <div className="PostTitle">{post.title}</div>
-                      <div className="PostBody">{post.body}</div>
-                  </div>
+                    <div className="PostUserInfoDiv">
+                      
+                        <div className="PostUserInfo">Nome</div>
+                        <div className="PostUserInfo">Empresa</div>
+                        <div className="PostUserInfo">Data/Hora</div>
+                      
+                    </div>
+                  
+                    <div className="PostInfo">
+                        <div className="PostTitle">{post.title}</div>
+                        <div className="PostBody">{post.body}</div>
+                    </div>
 
               </div>
 

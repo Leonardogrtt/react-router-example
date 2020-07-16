@@ -1,8 +1,15 @@
+.UsersListDiv {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
 .UsersListUl {
 
     list-style: none;
     text-align: center;
     padding: 0;
     margin: 0 auto;
+    min-width: 25vw;
+    max-width: 25vw;
     
 }

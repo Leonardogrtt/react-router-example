@@ -33,14 +33,14 @@ function UserDetail({ match }) {
 
   return (
     <>
-    <div>
+    <div style={{"width":"50vw", "display":"flex", "flex-direction":"column" }}>
       <h1>User Info:</h1>
           {user.id}<br />
           {user.name}<br />
           {user.companyName}<br />
-    </div>
-    <div>
-      <button>Show/Hide posts</button>
+          <div>
+            <button>Show/Hide posts</button>
+          </div>
     </div>
     </>
   );

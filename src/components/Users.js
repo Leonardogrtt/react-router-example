@@ -25,7 +25,7 @@ function Users() {
 
   return (
     <>
-    <div>
+    <div className="UsersListDiv">
       <h1>Users Page:</h1>
 
       <ul className="UsersListUl">

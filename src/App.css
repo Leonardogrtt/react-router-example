@@ -1,4 +1,10 @@
 .App {
   text-align: center;
   font-size: calc(6px + 1vmin);
+  background-color: rgb(74, 106, 155);
+  height: 100%;
+}
+
+.AppContainer {
+  display: flex;
 }

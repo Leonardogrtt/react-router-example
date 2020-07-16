@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
+import BoxLeft from './BoxLeft'
+import BoxRight from './BoxRight'
 import Posts from './components/Posts';
 import Users from './components/Users';
 import UserDetail from './components/UserDetail';
@@ -14,13 +16,19 @@ function App() {
 
         <Nav />
 
-        <Switch>
+          <div className="AppContainer">
+            <BoxLeft />
 
-          <Route exact path="/" component={Home} />
-          <Route path="/posts" component={Posts} />
-          <Route exact path="/users" component={Users} />
-          <Route path="/users/:id" component={UserDetail} />
-        </Switch>
+            <Switch>
+
+              <Route exact path="/" component={Home} />
+              <Route path="/posts" component={Posts} />
+              <Route exact path="/users" component={Users} />
+              <Route path="/users/:id" component={UserDetail} />
+            </Switch>
+
+            <BoxRight />
+          </div>
 
       </div>
     </Router>
@@ -29,7 +37,7 @@ function App() {
 
 const Home = () => {
   return (
-    <div>
+    <div style={{"width":"50vw"}}>
       <h1>Home Page</h1>
     </div>
   );
