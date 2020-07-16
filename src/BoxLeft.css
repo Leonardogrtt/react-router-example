@@ -2,6 +2,9 @@
     background-color: rgba(111, 146, 197, 0.185);
     min-width: 20vw;
     max-width: 25vw;
+    position: fixed;
+    left: 4em;
+    
 }
 
 .BoxLeftDiv {
@@ -11,4 +14,6 @@
     min-height: 40vh;
     margin: 1em;
     border-radius: 6px;
+
+
 }

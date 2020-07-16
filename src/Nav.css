@@ -5,9 +5,11 @@
     background: rgba(0, 0, 0, 0.75);
     color: white;
 
-    margin: 0 auto;
 
     max-height: 10vh;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    
 }
 
 .NavBarUl {
